@@ -14,3 +14,18 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+
+.home-img {
+    transition: box-shadow .3s;
+    border-radius:10px;
+    border: 2px solid #ff9100;;
+}
+
+.home-img:hover {
+    box-shadow: 0 0 11px rgb(255, 255, 255); 
+}
+
+.home-btn {
+    text-align: center;
+    margin-top: 15px;
+}
