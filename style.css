@@ -13,6 +13,7 @@ body {
     font-family: "Ga Maamli", sans-serif;
     font-weight: 400;
     font-style: normal;
+    
 }
 
 .home-img {
@@ -25,7 +26,16 @@ body {
     box-shadow: 0 0 11px rgb(255, 255, 255); 
 }
 
+.home-info {
+    color: orange;
+    font-size: 24px;
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 15px;
+}
+
 .home-btn {
     text-align: center;
-    margin-top: 15px;
+    justify-content: center;
 }
