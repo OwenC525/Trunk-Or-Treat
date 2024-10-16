@@ -39,3 +39,38 @@ body {
     text-align: center;
     justify-content: center;
 }
+
+.index-img {
+    transition: box-shadow .3s;
+    border-radius:10px;
+    border: 2px solid #ff9100;;
+}
+
+.index-img:hover {
+    box-shadow: 0 0 11px rgb(255, 255, 255); 
+}
+
+.img-description {
+    color: orange;
+    text-align: center;
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+}
+
+.sch-txt {
+    color: orange;
+    text-align: center;
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+}
+
+.sch-img {
+    transition: box-shadow .3s;
+    border-radius:10px;
+    border: 2px solid #ff9100;;
+    margin: 15px;
+}
