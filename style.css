@@ -41,6 +41,15 @@ body {
     justify-content: center;
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    text-align: center;
+  }
+
 .index-img {
     transition: box-shadow .3s;
     border-radius:10px;
