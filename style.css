@@ -39,12 +39,14 @@ body {
 .home-btn {
     text-align: center;
     justify-content: center;
+    margin: 15px;
 }
 
 .button-container {
     display: flex;
     justify-content: center;
   }
+  
 
   .container {
     text-align: center;
