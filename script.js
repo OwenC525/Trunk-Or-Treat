@@ -9,11 +9,8 @@ $(document).ready(function() {
       var $col = $(this);
       var $img = $col.find('.index-img');
       var $description = $col.find('.img-description');
-  
-      // Hide the description initially
       $description.hide();
   
-      // Set up hover events
       $col.hover(
         function() {
           // Mouse enter
@@ -33,8 +30,7 @@ $(document).ready(function() {
       var $scheduleText = $(this).next('.sch-txt');
       var $scheduleImage = $scheduleText.next('.sch-img');
 
-      
-      // Toggle the visibility of the schedule text
+
       $scheduleText.slideToggle(300);
       $scheduleImage.fadeToggle(300);
 
